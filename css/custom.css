@@ -1,0 +1,94 @@
+/* Global Styles */
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+}
+p {
+    font-size: 20px;
+}
+section {
+    margin-bottom: 0;
+}
+/* Header */
+
+header {
+    position: relative;
+}
+header .navbar {
+    position: absolute;
+    width: 100%;
+}
+
+/* Mast Head*/
+#mast-head {
+    background: #000 url('../assets/mast-head.png') bottom center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    padding-bottom: 130px;
+} 
+#mast-head a {
+    font-size: 83px;
+    color: white;
+    line-height: 83px;
+}
+#mast-head a:hover {
+    color: #272c6e;
+}
+#mast-head a i {
+    margin-bottom: 28px;
+}
+#mast-head h1 {
+    font-size: 46px;
+    text-transform: uppercase;
+    max-width: 410px;
+    margin: auto;
+    margin-bottom: 26px;
+}
+#mast-head p.lead {
+    font-size: 20px;
+    margin-bottom: 26px;
+    line-height: 20px;
+}
+#mast-head p {
+    max-width: 643px;
+    margin: auto;
+}
+
+/* What Is */
+
+#what-is {
+    background-color: #101010;
+    padding-top: 130px;
+}
+#what-is .col-md-6 img {
+    max-width: 100%;
+    margin: auto;
+}
+
+#what-are-tiles {
+    background-color: #101010;
+}
+
+
+/* Tiles Collection */
+
+#tiles-collection {
+    background-color: #101010;
+}
+
+/* Tiles Manual */
+
+#tiles-manual {
+    background: #000 url("../assets/tiles-usage.png") top center;
+    padding-top: 200px;
+}
+
+/* The Google Effect */
+
+#the-google-effect {
+    background: #000 url("../assets/google-effect-bg.png") top center;
+    background-size: 100%;
+    padding-bottom: 140px;
+    padding-top: 310px;
+}
