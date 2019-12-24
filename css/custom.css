@@ -92,3 +92,9 @@ header .navbar {
     padding-bottom: 140px;
     padding-top: 310px;
 }
+
+/* Footer */
+
+footer {
+    background: black;
+}
